@@ -5,7 +5,7 @@
 }
 
 body {
-  margin-top: 100px;
+  margin: 100px 0;
   /* max-width: 800px; */
 }
 
@@ -91,12 +91,16 @@ h3 {
   color: white;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   h1 {
     font-size: 50px;
   }
   h2 {
     font-size: 40px;
+    text-align: center;
+  }
+  p {
+    text-align: center;
   }
   h3 {
     font-size: 20px;
@@ -106,5 +110,10 @@ h3 {
   }
   .display {
     display: block;
+  }
+  .project-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
   }
 }
